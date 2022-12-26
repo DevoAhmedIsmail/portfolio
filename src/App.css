@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+html {
+  scroll-behavior: smooth;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .main-header::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    width: 50px;
+    height: 3px;
+} */
+
+.tagcloud {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin: auto;
+  width: 100%;
+  /* height: 500px; */
+  height: 100%;
+}
+.tagcloud--item:hover {
+  color: #36454f;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.arrow-down {
+  animation-name: arrowDown;
+}
+
+.arrow-up {
+  animation-name: arrowUp;
+}
+
+@keyframes arrowDown {
+  0% {
+    transform: translateX(0);
+    opacity: 0.5;
+    color: #0d9488;
+  }
+  25% {
+    transform: translateX(20px);
+    opacity: 1;
+    color: #0ac0b1;
+  }
+  50% {
+    transform: translateX(0px);
+    opacity: 0.5;
+    color: #0d9488;
+  }
+  75% {
+    transform: translateX(20px);
+    opacity: 1;
+    color: #0ac0b1;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 0.5;
+    color: #0d9488;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@keyframes arrowUp {
+  0% {
+    transform: translateX(0);
+    opacity: 0.5;
+    color: #0d9488;
+  }
+  25% {
+    transform: translateX(-20px);
+    opacity: 1;
+    color: #0ac0b1;
+  }
+  50% {
+    transform: translateX(0px);
+    opacity: 0.5;
+    color: #0d9488;
+  }
+  75% {
+    transform: translateX(-20px);
+    opacity: 1;
+    color: #0ac0b1;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 0.5;
+    color: #0d9488;
+  }
 }
 
-.App-link {
-  color: #61dafb;
+#portfolio .card-item {
+  position: relative;
+  cursor: pointer;
+}
+#portfolio .card-item .overlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #0ac0b191;
+  transition: 0.3s;
+  opacity: 0;
+  z-index: -1;
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#portfolio .card-item:hover .overlay {
+  opacity: 1;
+  z-index: 1;
 }
+
