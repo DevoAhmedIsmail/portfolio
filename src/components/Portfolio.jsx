@@ -18,7 +18,7 @@ const Portfolio = () => {
               key={website.id}
             >
               {/* Card */}
-              <div className="w-72 h-full py-10 rounded-xl">
+              <div className="w-72 lg:w-96 h-full py-10 rounded-xl">
                 <div className="card-item w-full h-full rounded-xl ">
                   <a href={website.url} rel="noreferrer" target="_blank">
                     <img
