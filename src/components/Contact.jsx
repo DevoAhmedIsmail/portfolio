@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div
+    <section
       className="h-screen relative pt-20 lg:pt-32 overflow-hidden"
       id="contact"
     >
@@ -54,7 +54,7 @@ const Contact = () => {
           To Portfolio
         </a>
       </div>
-    </div>
+    </section>
   );
 };
 

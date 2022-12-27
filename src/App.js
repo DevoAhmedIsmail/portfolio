@@ -8,7 +8,7 @@ import Skills from "./components/Skills";
 function App() {
   return (
     <div className="App bg-slate-900 text-white">
-      <div className="container mx-auto">
+      <div className="container section-container mx-auto">
         <Navbar />
         
         <About />

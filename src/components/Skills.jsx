@@ -22,18 +22,22 @@ const Skills = () => {
   }, []);
 
   return (
-    <div
+    <section
       className="h-screen relative pt-20 lg:pt-32 overflow-hidden"
       id="skills"
     >
       <div className="text-center">
-        <span className="main-header text-xl border-b-4 border-teal-600 pb-3">My Skills</span>
+        <span className="main-header text-xl border-b-4 border-teal-600 pb-3">
+          My Skills
+        </span>
       </div>
 
       {/* Skills */}
       <div className="mt-10">
         <span className="tagcloud"></span>
       </div>
+
+      
 
       {/* btn page Up */}
       <div className="group absolute top-28 -right-4 lg:top-1/3 lg:right-10 rotate-90">
@@ -50,7 +54,7 @@ const Skills = () => {
           <i className="fa-solid fa-arrow-right arrow-down animate-pulse ml-2 group-hover:text-teal-600 group-hover:translate-x-3 group-hover:scale-x-125 transition"></i>
         </a>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -5,7 +5,7 @@ import profilePic from "../assets/profile.jpg";
 
 const About = () => {
   return (
-    <div className="h-screen relative" id="about">
+    <section className="h-screen relative" id="about">
       {/* Content */}
       <div className="about-content flex flex-col lg:flex-row gap-6 px-16 md:px-32 pt-32 md:pt-40">
         {/* left */}
@@ -39,7 +39,7 @@ const About = () => {
           <i className="fa-solid fa-arrow-right font-bold text-lg arrow-down ml-2 animate-pulse group-hover:text-teal-600 group-hover:translate-x-3 group-hover:scale-x-125 transition"></i>
         </a>
       </div>
-    </div>
+    </section>
   );
 };
 

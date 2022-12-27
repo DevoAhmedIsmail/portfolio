@@ -3,14 +3,6 @@ html {
   overflow: hidden;
 }
 
-/* .main-header::after {
-    content: "";
-    position: absolute;
-    bottom: -5px;
-    width: 50px;
-    height: 3px;
-} */
-
 .tagcloud {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
@@ -25,10 +17,12 @@ html {
 
 .arrow-down {
   animation-name: arrowDown;
+  animation-duration: 4s;
 }
 
 .arrow-up {
   animation-name: arrowUp;
+  animation-duration: 4s;
 }
 
 @keyframes arrowDown {
@@ -98,7 +92,7 @@ html {
   right: 0;
   left: 0;
   bottom: 0;
-  background-color: #0ac0b191;
+  background-color: #5152529f;
   transition: 0.3s;
   opacity: 0;
   z-index: -1;
@@ -110,3 +104,58 @@ html {
   z-index: 1;
 }
 
+/* Scroll by page */
+
+/* .section-container {
+  scroll-snap-type: y mandatory;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+}
+
+.section-container section {
+  scroll-snap-align: start;
+  width: 100%;
+  height: 100%;
+} */
+
+.swipeRight {
+  animation-name: swipeRight;
+  animation-duration: 900ms;
+}
+.swipeLeft {
+  animation-name: swipeLeft;
+  animation-duration: 900ms;
+}
+
+@keyframes swipeRight {
+  0%{
+    transform: rotate(45deg);
+    color: #0d9488;
+  }
+  50%{
+    transform: rotate(0deg);
+    color: #0ac0b1;
+  }
+  100%{
+    transform: rotate(45deg);
+    color: #0d9488;
+  }
+
+}
+
+@keyframes swipeLeft {
+  0%{
+    transform: rotate(-45deg);
+    color: #0d9488;
+  }
+  50%{
+    transform: rotate(0deg);
+    color: #0ac0b1;
+  }
+  100%{
+    transform: rotate(-45deg);
+    color: #0d9488;
+  }
+
+}
