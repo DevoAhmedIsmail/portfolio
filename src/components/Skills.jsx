@@ -1,25 +1,36 @@
 import React, { useEffect } from "react";
-import TagCloud from "TagCloud";
+import htmlLogo from "../assets/html.png";
+import cssLogo from "../assets/css.png";
+import jsLogo from "../assets/js.png";
+import jsonLogo from "../assets/json.png";
+import tailwindLogo from "../assets/tailwind.png";
+import bootstrapLogo from "../assets/bootstrap.jfif";
+import reactLogo from "../assets/react.png";
+import reactRouterLogo from "../assets/react-router.png";
+import reduxLogo from "../assets/redux.png";
+import apiLogo from "../assets/api.png";
+import axiosLogo from "../assets/axios.png";
+// import TagCloud from "TagCloud";
 
 const Skills = () => {
-  useEffect(() => {
-    return () => {
-      const container = ".tagcloud";
-      const texts = [
-        "HTML",
-        "CSS",
-        "JAVASCRIPT",
-        "React",
-        "Redux",
-        "Toolkit",
-        "API",
-        "ES6",
-      ];
-      const options = { radius: 200, keep: true };
+  // useEffect(() => {
+  //   return () => {
+  //     const container = ".tagcloud";
+  //     const texts = [
+  //       "HTML",
+  //       "CSS",
+  //       "JAVASCRIPT",
+  //       "React",
+  //       "Redux",
+  //       "Toolkit",
+  //       "API",
+  //       "ES6",
+  //     ];
+  //     const options = { radius: 200, keep: true };
 
-      TagCloud(container, texts, options);
-    };
-  }, []);
+  //     TagCloud(container, texts, options);
+  //   };
+  // }, []);
 
   return (
     <section
@@ -33,11 +44,77 @@ const Skills = () => {
       </div>
 
       {/* Skills */}
-      <div className="mt-10">
+      {/* <div className="mt-10">
         <span className="tagcloud"></span>
-      </div>
+      </div> */}
 
-      
+      <div className=" mt-10 mx-12 py-5 lg:mx-32 h-3/4 flex flex-col  items-center gap-5 overflow-y-scroll ">
+        <div className="flex flex-col lg:flex-row gap-5">
+          <div className="w-40 bg-slate-50 py-2 rounded">
+            <img
+              src={htmlLogo}
+              alt="html"
+              className="w-full h-48  rounded object-contain"
+            />
+          </div>
+          <div className="w-40 bg-slate-50 py-2 px-1 rounded">
+            <img
+              src={cssLogo}
+              alt="html"
+              className="w-full h-48  rounded  object-contain"
+            />
+          </div>
+          <div className="w-40 bg-slate-50 py-2 rounded">
+            <img
+              src={jsLogo}
+              alt="html"
+              className="w-full h-48  rounded object-contain"
+            />
+          </div>
+        </div>
+        <div className="flex flex-col lg:flex-row gap-5">
+          <div className="w-40 bg-slate-50 py-2 rounded">
+            <img src={jsonLogo} alt="html" className="w-full h-48  rounded  object-contain" />
+          </div>
+          <div className="w-40 bg-slate-50 rounded">
+            <img
+              src={tailwindLogo}
+              alt="html"
+              className="w-full h-48  rounded  object-contain"
+            />
+          </div>
+          <div className="w-40 py-2 rounded" style={{backgroundColor: '#573c7f'}}>
+            <img
+              src={bootstrapLogo}
+              alt="html"
+              className="w-full h-48  rounded"
+            />
+          </div>
+        </div>
+        <div className="flex flex-col lg:flex-row gap-5">
+          <div className="w-40 bg-slate-50 rounded">
+            <img src={reactLogo} alt="html" className="w-full h-48  rounded object-contain" />
+          </div>
+          <div className="w-40 bg-slate-50 py-2 px-2 rounded">
+            <img
+              src={reactRouterLogo}
+              alt="html"
+              className="w-full h-48  rounded object-contain"
+            />
+          </div>
+          <div className="w-40 bg-slate-50 py-2 rounded">
+            <img src={reduxLogo} alt="html" className="w-full h-48  rounded object-contain" />
+          </div>
+        </div>
+        <div className="flex flex-col lg:flex-row gap-5">
+          <div className="w-40">
+            <img src={apiLogo} alt="html" className="w-full h-48  rounded" />
+          </div>
+          <div className="w-40">
+            <img src={axiosLogo} alt="html" className="w-full h-48  rounded" />
+          </div>
+        </div>
+      </div>
 
       {/* btn page Up */}
       <div className="group absolute top-28 -right-4 lg:top-1/3 lg:right-10 rotate-90">
