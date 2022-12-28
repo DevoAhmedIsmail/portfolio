@@ -14,15 +14,15 @@ const Contact = () => {
           {/* Contact info */}
           <div className="flex flex-col gap-5 mt-8 lg:mt-16 lg:px-12 text-lg">
             <div className="flex flex-row items-center text-start ">
-              <i className="fa-regular fa-envelope mr-5 lg:mr-16 text-2xl"></i>
+              <i className="fa-regular fa-envelope mr-2 md:mr-5 lg:mr-16 text-sm md:text-2xl"></i>
               <p>devo.ahmedismail@gmail.com</p>
             </div>
             <div className="flex flex-row items-center ">
-              <i className="fa-solid fa-phone  mr-5 lg:mr-16 text-2xl"></i>
+              <i className="fa-solid fa-phone mr-2 md:mr-5 lg:mr-16 text-2xl"></i>
               <p>+201092071919</p>
             </div>
             <div className="flex flex-row items-center ">
-              <i className="fa-solid fa-location-dot  mr-5 lg:mr-16 text-2xl"></i>
+              <i className="fa-solid fa-location-dot mr-2 md:mr-5 lg:mr-16 text-2xl"></i>
               <p>Alexandria, Egypt</p>
             </div>
           </div>
