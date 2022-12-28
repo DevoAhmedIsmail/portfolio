@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0a3639ce.css",
-    "main.js": "/portfolio/static/js/main.22012698.js",
+    "main.css": "/portfolio/static/css/main.32d254f3.css",
+    "main.js": "/portfolio/static/js/main.542aa995.js",
     "static/media/realHome.PNG": "/portfolio/static/media/realHome.4b9fad5f7342c0cd3146.PNG",
     "static/media/Movies.png": "/portfolio/static/media/Movies.d22b388e130a2a80221f.png",
     "static/media/gusto.PNG": "/portfolio/static/media/gusto.a2fe71244d1fca29d489.PNG",
@@ -9,12 +9,17 @@
     "static/media/ecoShop.PNG": "/portfolio/static/media/ecoShop.cc9dff2ac12f2195f03a.PNG",
     "static/media/profile.jpg": "/portfolio/static/media/profile.fc42b6b01be96876d96d.jpg",
     "static/media/Bondi.PNG": "/portfolio/static/media/Bondi.9cb4aeea7d16bf8519de.PNG",
+    "static/media/redux.png": "/portfolio/static/media/redux.5aeb6cccb2f490155a71.png",
+    "static/media/react-router.png": "/portfolio/static/media/react-router.73a5c8b0610ad4fab550.png",
+    "static/media/html.png": "/portfolio/static/media/html.15de0382fa7682d5b9f7.png",
+    "static/media/css.png": "/portfolio/static/media/css.e3e734658fea6fe43862.png",
+    "static/media/bootstrap.jfif": "/portfolio/static/media/bootstrap.96c0ba8894a1c398990b.jfif",
     "index.html": "/portfolio/index.html",
-    "main.0a3639ce.css.map": "/portfolio/static/css/main.0a3639ce.css.map",
-    "main.22012698.js.map": "/portfolio/static/js/main.22012698.js.map"
+    "main.32d254f3.css.map": "/portfolio/static/css/main.32d254f3.css.map",
+    "main.542aa995.js.map": "/portfolio/static/js/main.542aa995.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a3639ce.css",
-    "static/js/main.22012698.js"
+    "static/css/main.32d254f3.css",
+    "static/js/main.542aa995.js"
   ]
 }
