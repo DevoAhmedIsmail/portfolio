@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.32d254f3.css",
-    "main.js": "/portfolio/static/js/main.542aa995.js",
+    "main.css": "/portfolio/static/css/main.00c8c1d3.css",
+    "main.js": "/portfolio/static/js/main.6a5f95f4.js",
     "static/media/realHome.PNG": "/portfolio/static/media/realHome.4b9fad5f7342c0cd3146.PNG",
     "static/media/Movies.png": "/portfolio/static/media/Movies.d22b388e130a2a80221f.png",
     "static/media/gusto.PNG": "/portfolio/static/media/gusto.a2fe71244d1fca29d489.PNG",
     "static/media/Box.PNG": "/portfolio/static/media/Box.936189f9270c69d333d7.PNG",
     "static/media/ecoShop.PNG": "/portfolio/static/media/ecoShop.cc9dff2ac12f2195f03a.PNG",
+    "static/media/carRental.PNG": "/portfolio/static/media/carRental.d9710d9547d7cb1b0558.PNG",
     "static/media/profile.jpg": "/portfolio/static/media/profile.fc42b6b01be96876d96d.jpg",
     "static/media/Bondi.PNG": "/portfolio/static/media/Bondi.9cb4aeea7d16bf8519de.PNG",
     "static/media/redux.png": "/portfolio/static/media/redux.5aeb6cccb2f490155a71.png",
@@ -15,11 +16,11 @@
     "static/media/css.png": "/portfolio/static/media/css.e3e734658fea6fe43862.png",
     "static/media/bootstrap.jfif": "/portfolio/static/media/bootstrap.96c0ba8894a1c398990b.jfif",
     "index.html": "/portfolio/index.html",
-    "main.32d254f3.css.map": "/portfolio/static/css/main.32d254f3.css.map",
-    "main.542aa995.js.map": "/portfolio/static/js/main.542aa995.js.map"
+    "main.00c8c1d3.css.map": "/portfolio/static/css/main.00c8c1d3.css.map",
+    "main.6a5f95f4.js.map": "/portfolio/static/js/main.6a5f95f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.32d254f3.css",
-    "static/js/main.542aa995.js"
+    "static/css/main.00c8c1d3.css",
+    "static/js/main.6a5f95f4.js"
   ]
 }
