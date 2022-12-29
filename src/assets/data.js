@@ -1,9 +1,10 @@
-const ecoShop = require("./ecoShop.PNG");
-const box = require("./Box.PNG");
-const movies = require("./Movies.png");
-const realHome = require("./realHome.PNG");
-const bondi = require("./Bondi.PNG");
-const gusto = require("./gusto.PNG");
+const ecoShop = require("./websites/ecoShop.PNG");
+const box = require("./websites/Box.PNG");
+const movies = require("./websites/Movies.png");
+const realHome = require("./websites/realHome.PNG");
+const bondi = require("./websites/Bondi.PNG");
+const gusto = require("./websites/gusto.PNG");
+const carRental = require("./websites/carRental.PNG");
 
 export const websites = [
   {
@@ -54,5 +55,12 @@ export const websites = [
     image: `${gusto}`,
     tags: ["HTML", "Css","TailWind","Swiper","Responsive"],
   },
-  
+  {
+    id: 7,
+    name: "Car Rental",
+    url: "https://github.com/DevoAhmedIsmail/car-rental",
+    description: "A landing page for car rental",
+    image: `${carRental}`,
+    tags: ["HTML", "Css","React","TailWind","Responsive"],
+  },
 ];
